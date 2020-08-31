@@ -1,0 +1,107 @@
+:root {
+    --primary-color: rgb(53,28,117);
+    --secondary-color: rgb(199,120,235);
+}
+
+header {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+header div h5 {
+    flex: 1;
+}
+
+header div p span{
+    flex: 2;
+    justify-content: left;
+}
+header a, header p {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.textAction ol {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    justify-content: left;
+    padding: 10px;
+}
+
+header h4.score{
+    padding-top: 8px;
+}
+
+#quiz-assessment {
+    font-weight: bolder;
+    font-size: 50px;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    padding: 15px 30px;
+    justify-content: center;
+    width:  65%;
+}
+
+main div{
+    text-align: center;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+}
+main div h1{
+    text-align: center;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+}
+
+.answer {
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
