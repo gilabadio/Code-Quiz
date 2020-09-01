@@ -1,6 +1,6 @@
 :root {
-    --primary-color: rgb(53,28,117);
-    --secondary-color: rgb(199,120,235);
+    --primary-color: rgb(199,120,235);
+    --secondary-color:rgb(53,28,117) ;
 }
 
 header {
